@@ -3,6 +3,8 @@ import { useEffect, useRef, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 
 import FadeUp from "@/animation/fade-up";
+import { BiLogoGithub, BiLogoLinkedin, BiMailSend, BiSolidPhoneCall } from "react-icons/bi";
+import { siteMetadata } from "@/data/siteMetaData.mjs";
 
 export default function LandingHero() {
   const [scrollY, setScrollY] = useState(0);
@@ -39,7 +41,7 @@ export default function LandingHero() {
           <AnimatePresence>
             <FadeUp key="title-main" duration={0.6}>
               <h1 className="bg-accent bg-clip-text py-2 text-5xl font-bold text-transparent sm:text-6xl md:text-7xl xl:text-8xl">
-                Amit Chauhan
+                Salem Zakkar
               </h1>
               <span className="text-xl font-semibold text-zinc-900 dark:text-zinc-100 md:text-3xl">
                 Software Developer
@@ -48,14 +50,67 @@ export default function LandingHero() {
             <FadeUp key="description" duration={0.6} delay={0.2}>
               <div className="mt-8 max-w-3xl text-base font-semibold text-zinc-900 dark:text-zinc-200 sm:text-base md:text-xl">
                 I am a software developer specializing in building
-                high-performance, user-focused web applications. Skilled in{" "}
-                <span className="font-semibold text-accent">ReactJS</span>,{" "}
-                <span className="font-semibold text-accent">NextJS</span>,{" "}
-                <span className="font-semibold text-accent">SolidJS</span>, and
-                an expert in{" "}
-                <span className="font-semibold text-accent">JavaScript</span>,{" "}
-                <span className="font-semibold text-accent">HTML</span> and{" "}
-                <span className="font-semibold text-accent">CSS</span>
+                high-performance mobile applications and scalable backend
+                systems.
+                <br></br>
+                my Mobile Applications Stack is{" "}
+                <span className="font-semibold text-accent">Flutter</span>,{" "}
+                <span className="font-semibold text-accent">
+                  Kotlin (For native side & plugins)
+                </span>
+                .<br></br>
+                and my Backend Stack is{" "}
+                <span className="font-semibold text-accent">NestJS</span>,{" "}
+                <span className="font-semibold text-accent">ExpressJS</span>,{" "}
+                <span className="font-semibold text-accent">PostgreSQL</span>,{" "}
+                <span className="font-semibold text-accent">MySQL</span>,{" "}
+                <span className="font-semibold text-accent">MongoDB</span>,{" "}
+                <span className="font-semibold text-accent">TypeScript</span>,{" "}
+                <span className="font-semibold text-accent">JavaScript</span>{" "}
+              </div>
+            </FadeUp>
+            <FadeUp key="contact-icons" duration={0.6} delay={0.4}>
+              <div className="pointer-events-auto mt-8 flex items-center gap-6">
+                <a
+                  href={siteMetadata.github}
+                  aria-label="GitHub"
+                  className="text-2xl text-zinc-900 transition-colors hover:text-accent dark:text-zinc-100"
+                >
+                  <BiLogoGithub />
+                </a>
+                <a
+                  href={siteMetadata.linkedin}
+                  aria-label="GitHub"
+                  className="text-2xl text-zinc-900 transition-colors hover:text-accent dark:text-zinc-100"
+                >
+                  <BiLogoLinkedin />
+                </a>
+                <a
+                  href={"mailto:" + siteMetadata.email}
+                  aria-label="Email"
+                  className="text-2xl text-zinc-900 transition-colors hover:text-accent dark:text-zinc-100"
+                >
+                  <BiMailSend />
+                </a>
+                <a
+                  href={"tel:" + siteMetadata.phone}
+                  aria-label="Phone"
+                  className="text-2xl text-zinc-900 transition-colors hover:text-accent dark:text-zinc-100"
+                >
+                  <BiSolidPhoneCall />
+                </a>
+              </div>
+            </FadeUp>
+            <FadeUp key="contact-icons" duration={0.6} delay={0.4}>
+              <div className="pointer-events-auto mt-8 flex items-center gap-6">
+                <a
+                  href="/cv.pdf" // replace with your actual CV path
+                  download="Salem_Zakkar_CV.pdf"
+                  aria-label="Download CV"
+                  className="hover:bg-accent-dark dark:bg-accent-dark dark:hover:bg-accent-light mt-6 inline-flex items-center gap-2 rounded-lg bg-accent px-6 py-3 text-lg font-semibold text-white shadow-lg transition-transform hover:-translate-y-1 hover:scale-105"
+                >
+                  Download CV
+                </a>
               </div>
             </FadeUp>
           </AnimatePresence>

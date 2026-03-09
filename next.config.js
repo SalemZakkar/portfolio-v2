@@ -4,20 +4,32 @@ const withBundleAnalyzer = require("@next/bundle-analyzer")({
 
 /** @type {import('next').NextConfig} */
 const nextConfig = withBundleAnalyzer({
+  // Enable standalone build if BUILD_STANDALONE is true
   output: process.env.BUILD_STANDALONE === "true" ? "standalone" : undefined,
+  
+  // For static export compatibility
+  output: process.env.STATIC_EXPORT === "true" ? "export" : undefined,
+
   reactStrictMode: true,
+  
   pageExtensions: ["ts", "tsx", "js"],
+
   eslint: {
     dirs: ["src"],
   },
+
   images: {
-    domains: ["https://flagcdn.com"],
+    domains: ["flagcdn.com"], // removed https:// — Next.js expects just the domain
   },
+
   webpack: (config) => {
+    // Handle SVGs with SVGR
     config.module.rules.push({
       test: /\.svg$/i,
       use: ["@svgr/webpack"],
     });
+
+    // Polyfill Node.js modules that are not available in browser
     config.resolve.fallback = {
       fs: false,
       net: false,

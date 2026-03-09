@@ -4,29 +4,21 @@ import { NextSeo } from "next-seo";
 
 import LandingHero from "@/components/landing-hero";
 import SkillsShowcase from "@/components/skills/skills-showcase";
-import ProjectShowcase from "@/components/projects/project-showcase";
-import { PROJECT_SHOWCASE } from "@/data/projects";
 import { SKILLS_DATA } from "@/data/skills";
 import { siteMetadata } from "@/data/siteMetaData.mjs";
 
 export default function Home() {
   return (
     <>
-      <NextSeo
-        title="Amit Chauhan | Software Developer"
-        description="Explore the professional portfolio of Amit Chauhan, a skilled Software Developer with 2 years of hands-on experience. Discover innovative projects, expertise in modern web technologies, and a passion for creating seamless user experiences."
-        canonical={siteMetadata.siteUrl}
+         <NextSeo
+        title="About Salem Zakkar | Software Developer"
+        description="Learn more about Salem Zakkar, a dedicated Software Developer with 3 years of experience."
+        canonical={`${siteMetadata.siteUrl}/about`}
         openGraph={{
-          url: siteMetadata.siteUrl,
-          title: "Amit Chauhan - Software Developer",
+          url: `${siteMetadata.siteUrl}/about`,
+          title: "Learn About Salem Zakkar - Software Developer",
           description:
-            "Dive into the world of web development with Amit Chauhan. Discover a Software Developer with 2 years of expertise, showcasing cutting-edge projects and a commitment to crafting exceptional user interfaces.",
-          images: [
-            {
-              url: `${siteMetadata.siteUrl}${siteMetadata.twitterImage}`,
-              alt: "Amit Chauhan - Portfolio Image",
-            },
-          ],
+            "Dive into the story of Salem Zakkar, a Software Developer. Uncover the experiences, skills, and passion.",
           siteName: siteMetadata.siteName,
           type: "website",
         }}
@@ -37,21 +29,12 @@ export default function Home() {
           {
             property: "keywords",
             content:
-              "React Developer, Software Developer, Frontend Developer, Web Developer, JavaScript, HTML, CSS, Portfolio, UI/UX, React.js, Frontend Development, Web Development, JavaScript Developer, Responsive Design",
+              "Software Developer portfolio, Software Developer, Flutter , Dart , NestJS , database , PSQL , postgresQL , mongoDB",
           },
         ]}
       />
-      <Head>
-        {siteMetadata.googleSiteVerification && (
-          <meta
-            name="google-site-verification"
-            content={siteMetadata.googleSiteVerification}
-          />
-        )}
-      </Head>
       <LandingHero />
       <SkillsShowcase skills={SKILLS_DATA} />
-      <ProjectShowcase projects={PROJECT_SHOWCASE} />
     </>
   );
 }

@@ -1,177 +1,98 @@
-import {
-  SiExpress,
-  SiSocketdotio,
-  SiPrisma,
-  SiNextdotjs,
-  SiFlask,
-} from "react-icons/si";
-import {
-  FramerMotionIcon,
-  ReactRouterDomIcon,
-  VitePwaIcon,
-} from "@/components/icons";
+import { SiAmazonaws, SiAndroid, SiAndroidauto, SiAndroidstudio, SiDart, SiDocker, SiExpress, SiFirebase, SiFlutter, SiGit, SiIntellijidea, SiJavascript, SiKotlin, SiMongodb, SiMongoose, SiMysql, SiNestjs, SiNodedotjs, SiPostgresql, SiPostman, SiSocketdotio, SiTypescript, SiVisualstudiocode } from "react-icons/si";
 import { type SkillsShowcaseProps } from "@/components/skills/skills-showcase";
 
-// Languages
-import HtmlSvg from "@/public/icons/html.svg";
-import CsssSvg from "@/public/icons/css.svg";
-import SassSvg from "@/public/icons/sass.svg";
-import JavascriptSvg from "@/public/icons/javascript.svg";
-import TypescriptSvg from "@/public/icons/typescript.svg";
-import PythonSvg from "@/public/icons/python.svg";
-
-// Libraries
-import ReactjsSvg from "@/public/icons/reactjs.svg";
-import SolidjsSvg from "@/public/icons/solidjs.svg";
-import ReduxSvg from "@/public/icons/redux.svg";
-import TailwindcssSvg from "@/public/icons/tailwindcss.svg";
-import MuiSvg from "@/public/icons/mui.svg";
-import ViteSvg from "@/public/icons/vite.svg";
-
-// Backend
-import NodejsSvg from "@/public/icons/nodejs.svg";
-
-// Database and ORMS
-import MongoDBSvg from "@/public/icons/mongodb.svg";
-import PostgressSvg from "@/public/icons/postgresql.svg";
-
-// Tools and Tech
-import GitSvg from "@/public/icons/git.svg";
-import DockerSvg from "@/public/icons/docker.svg";
-import AwsSvg from "@/public/icons/aws.svg";
-import PostmanSvg from "@/public/icons/postman.svg";
 
 export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
   {
-    sectionName: "Languages",
+    sectionName: "",
     skills: [
       {
-        name: "HTML",
-        icon: HtmlSvg,
-      },
-      {
-        name: "CSS",
-        icon: CsssSvg,
-      },
-      {
-        name: "SASS",
-        icon: SassSvg,
-      },
-      {
         name: "Javascript",
-        icon: JavascriptSvg,
+        icon: SiJavascript,
       },
       {
         name: "Typescript",
-        icon: TypescriptSvg,
+        icon: SiTypescript,
       },
       {
-        name: "Python",
-        icon: PythonSvg,
-      },
-    ],
-  },
-  {
-    sectionName: "Libraries and Frameworks",
-    skills: [
-      {
-        name: "Reactjs",
-        icon: ReactjsSvg,
+        name: "Dart",
+        icon: SiDart,
       },
       {
-        name: "Nextjs",
-        icon: SiNextdotjs,
+        name: "Kotlin",
+        icon: SiKotlin,
       },
       {
-        name: "Solidjs",
-        icon: SolidjsSvg,
+        name: "Flutter",
+        icon: SiFlutter,
       },
       {
-        name: "React Router Dom",
-        icon: ReactRouterDomIcon,
+        name: "Android",
+        icon: SiAndroid,
       },
-      {
-        name: "Redux",
-        icon: ReduxSvg,
-      },
-      {
-        name: "Tailwindcss",
-        icon: TailwindcssSvg,
-      },
-      {
-        name: "MUI",
-        icon: MuiSvg,
-      },
-      {
-        name: "Framer motion",
-        icon: FramerMotionIcon,
-      },
-      {
-        name: "Vite",
-        icon: ViteSvg,
-      },
-      {
-        name: "Vite PWA",
-        icon: VitePwaIcon,
-      },
-    ],
-  },
-  {
-    sectionName: "Backend",
-    skills: [
       {
         name: "Nodejs",
-        icon: NodejsSvg,
+        icon: SiNodedotjs,
       },
       {
         name: "Express",
         icon: SiExpress,
       },
       {
+        name: "NestJS",
+        icon: SiNestjs,
+      },
+      {
+        name: "MongoDB",
+        icon: SiMongodb,
+      },
+      {
+        name: "Mongoose",
+        icon: SiMongoose,
+      },
+      {
+        name: "PostgreSQL",
+        icon: SiPostgresql,
+      },
+      {
+        name: "MySQL",
+        icon: SiMysql,
+      },
+      {
+        name: "Firebase",
+        icon: SiFirebase,
+      },
+      {
+        name: "Git",
+        icon: SiGit,
+      },
+      {
         name: "Socket.io",
         icon: SiSocketdotio,
       },
       {
-        name: "Flask",
-        icon: SiFlask,
-      },
-    ],
-  },
-  {
-    sectionName: "Databases and ORMs",
-    skills: [
-      {
-        name: "MongoDB",
-        icon: MongoDBSvg,
+        name: "Android Studio",
+        icon: SiAndroidstudio,
       },
       {
-        name: "Postgress",
-        icon: PostgressSvg,
+        name: "IntelliJ IDEA",
+        icon: SiIntellijidea,
       },
       {
-        name: "Prisma",
-        icon: SiPrisma,
-      },
-    ],
-  },
-  {
-    sectionName: "Tools and Technologies",
-    skills: [
-      {
-        name: "Git",
-        icon: GitSvg,
-      },
-      {
-        name: "Docker",
-        icon: DockerSvg,
-      },
-      {
-        name: "AWS",
-        icon: AwsSvg,
+        name: "VS Code",
+        icon: SiVisualstudiocode,
       },
       {
         name: "Postman",
-        icon: PostmanSvg,
+        icon: SiPostman,
+      },
+      {
+        name: "Docker",
+        icon: SiDocker,
+      },
+      {
+        name: "AWS",
+        icon: SiAmazonaws,
       },
     ],
   },

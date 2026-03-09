@@ -8,20 +8,14 @@ export default function Projects() {
   return (
     <>
       <NextSeo
-        title="Projects by Amit Chauhan - Software Developer Portfolio"
-        description="Explore a collection of projects by Amit Chauhan, a seasoned Software Developer. From innovative web applications to responsive interfaces, discover the depth and diversity of my work."
-        canonical={`${siteMetadata.siteUrl}/projects`}
+        title="About Salem Zakkar | Software Developer"
+        description="Learn more about Salem Zakkar, a dedicated Software Developer with 3 years of experience."
+        canonical={`${siteMetadata.siteUrl}/about`}
         openGraph={{
-          url: `${siteMetadata.siteUrl}/projects`,
-          title: "Discover Projects by Amit Chauhan - Software Developer",
+          url: `${siteMetadata.siteUrl}/about`,
+          title: "Learn About Salem Zakkar - Software Developer",
           description:
-            "Explore a showcase of projects crafted by Amit Chauhan, a Software Developer. Witness the fusion of creativity and technology in web development.",
-          images: [
-            {
-              url: `${siteMetadata.siteUrl}${siteMetadata.twitterImage}`,
-              alt: "Amit Chauhan - Portfolio Image",
-            },
-          ],
+            "Dive into the story of Salem Zakkar, a Software Developer. Uncover the experiences, skills, and passion.",
           siteName: siteMetadata.siteName,
           type: "website",
         }}
@@ -32,7 +26,7 @@ export default function Projects() {
           {
             property: "keywords",
             content:
-              "Projects,Amit Portfolio, Software Developer, React Developer, Frontend Developer, Web Development, JavaScript, HTML, CSS, UI/UX, Web Applications, Responsive Design",
+              "Software Developer portfolio, Software Developer, Flutter , Dart , NestJS , database , PSQL , postgresQL , mongoDB",
           },
         ]}
       />
@@ -52,10 +46,6 @@ export default function Projects() {
             ))}
           </div>
           <div className="mx-auto mt-16 max-w-5xl text-center text-foreground md:mt-28">
-            <span className="text-xl font-bold md:text-2xl">
-              I am currently building new projects and learning backend
-              development to expand my skill set beyond frontend.
-            </span>
             <p className="mt-10 text-base md:text-xl">
               Visit my github to see some of the latest projects{" "}
               <a
