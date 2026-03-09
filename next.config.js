@@ -4,14 +4,16 @@ const withBundleAnalyzer = require("@next/bundle-analyzer")({
 
 /** @type {import('next').NextConfig} */
 const nextConfig = withBundleAnalyzer({
-  // Enable standalone build if BUILD_STANDALONE is true
-  output: process.env.BUILD_STANDALONE === "true" ? "standalone" : undefined,
-  
-  // For static export compatibility
-  output: process.env.STATIC_EXPORT === "true" ? "export" : undefined,
+  // Choose output mode based on env variables
+  output:
+    process.env.BUILD_STANDALONE === "true"
+      ? "standalone"
+      : process.env.STATIC_EXPORT === "true"
+      ? "export"
+      : undefined,
 
   reactStrictMode: true,
-  
+
   pageExtensions: ["ts", "tsx", "js"],
 
   eslint: {
@@ -19,7 +21,7 @@ const nextConfig = withBundleAnalyzer({
   },
 
   images: {
-    domains: ["flagcdn.com"], // removed https:// — Next.js expects just the domain
+    domains: ["flagcdn.com"], // no https://
   },
 
   webpack: (config) => {

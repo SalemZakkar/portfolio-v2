@@ -4,7 +4,7 @@ import AboutHero from "@/components/about-hero";
 import ExperienceShowcaseList from "@/components/experience/experience-showcase-list";
 import { EXPERIENCE } from "@/data/experience";
 import { EDUCATION } from "@/data/education";
-import { siteMetadata } from "@/data/siteMetaData.mjs";
+import { siteMetadata } from "@/data/siteMetaData.js";
 
 export default function About() {
   return (

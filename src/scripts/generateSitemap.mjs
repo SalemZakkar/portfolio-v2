@@ -1,7 +1,7 @@
 import { writeFileSync } from "fs";
 import { globby } from "globby";
 import prettier from "prettier";
-import { siteMetadata } from "../data/siteMetaData.mjs";
+import { siteMetadata } from "../data/siteMetaData.js";
 
 async function generateSitemap() {
   const prettierConfig = await prettier.resolveConfig(

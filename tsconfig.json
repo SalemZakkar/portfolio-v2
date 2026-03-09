@@ -23,7 +23,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
-    "src/data/siteMetaData.mjs"
+    "src/data/siteMetaData.js"
   ],
   "exclude": ["node_modules"]
 }

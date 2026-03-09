@@ -4,7 +4,7 @@ import { AnimatePresence, motion } from "framer-motion";
 
 import FadeUp from "@/animation/fade-up";
 import { BiLogoGithub, BiLogoLinkedin, BiMailSend, BiSolidPhoneCall } from "react-icons/bi";
-import { siteMetadata } from "@/data/siteMetaData.mjs";
+import { siteMetadata } from "@/data/siteMetaData.js";
 
 export default function LandingHero() {
   const [scrollY, setScrollY] = useState(0);
