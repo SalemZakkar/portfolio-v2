@@ -7,7 +7,7 @@ export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
       name: "Unifi Solutions",
       href: "https://unifisolutions.io/",
     },
-    date: "MAY 2024 - MAY 2026",
+    date: "AUG 2024 - JAN 2026",
     location: "Montreal, Canada - Remote",
     description: `
 Developed cross-platform mobile apps for IoT, medical, and maintenance using flutter , Jira , Bitbucket.\n
