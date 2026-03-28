@@ -5,7 +5,7 @@ export const EDUCATION: ExperienceShowcaseListItemProps[] = [
     title: "Bachelor Of Informatics Engineering",
     organisation: {
       name: "Arab University Of Science And Technology",
-      href: "https://aust.edy.sy/",
+      href: "https://aust.edu.sy/",
     },
     date: "2019-2024",
     location: "Hama, Syria",
