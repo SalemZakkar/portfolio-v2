@@ -41,32 +41,35 @@ export default function LandingHero() {
           <AnimatePresence>
             <FadeUp key="title-main" duration={0.6}>
               <h1 className="bg-accent bg-clip-text py-2 text-5xl font-bold text-transparent sm:text-6xl md:text-7xl xl:text-8xl">
-                Salem Zakkar
+                Inas Saab
               </h1>
               <span className="text-xl font-semibold text-zinc-900 dark:text-zinc-100 md:text-3xl">
-                Software Developer
+                Flutter Mobile App Developer
               </span>
             </FadeUp>
             <FadeUp key="description" duration={0.6} delay={0.2}>
               <div className="mt-8 max-w-3xl text-base font-semibold text-zinc-900 dark:text-zinc-200 sm:text-base md:text-xl">
-                I am a software developer specializing in building
-                high-performance mobile applications and scalable backend
-                systems.
+                I am a Mobile App Developer with over 4 years of experience in
+                IT, focused on building high-quality, user-friendly Android and
+                iOS applications.
                 <br></br>
-                my Mobile Applications Stack is{" "}
+                My core stack is{" "}
                 <span className="font-semibold text-accent">Flutter</span>,{" "}
+                <span className="font-semibold text-accent">Dart</span>, and{" "}
                 <span className="font-semibold text-accent">
-                  Kotlin (For native side & plugins)
-                </span>
-                .<br></br>
-                and my Backend Stack is{" "}
-                <span className="font-semibold text-accent">NestJS</span>,{" "}
-                <span className="font-semibold text-accent">ExpressJS</span>,{" "}
-                <span className="font-semibold text-accent">PostgreSQL</span>,{" "}
-                <span className="font-semibold text-accent">MySQL</span>,{" "}
-                <span className="font-semibold text-accent">MongoDB</span>,{" "}
-                <span className="font-semibold text-accent">TypeScript</span>,{" "}
-                <span className="font-semibold text-accent">JavaScript</span>{" "}
+                  BLoC / Cubit
+                </span>{" "}
+                for scalable state management.
+                <br></br>
+                I work with{" "}
+                <span className="font-semibold text-accent">Firebase</span>,{" "}
+                <span className="font-semibold text-accent">Hive</span>,{" "}
+                <span className="font-semibold text-accent">REST APIs</span>,{" "}
+                <span className="font-semibold text-accent">Google Maps</span>,{" "}
+                <span className="font-semibold text-accent">Stripe</span>, and{" "}
+                <span className="font-semibold text-accent">FCM</span>, with a
+                background in Computer and Automation Engineering and a passion
+                for clean, efficient code.
               </div>
             </FadeUp>
             <FadeUp key="contact-icons" duration={0.6} delay={0.4}>
@@ -104,8 +107,8 @@ export default function LandingHero() {
             <FadeUp key="contact-icons" duration={0.6} delay={0.4}>
               <div className="pointer-events-auto mt-8 flex items-center gap-6">
                 <a
-                  href="/cv.pdf" // replace with your actual CV path
-                  download="Salem_Zakkar_CV.pdf"
+                  href="/cv.pdf"
+                  download="Inas_Saab_CV.pdf"
                   aria-label="Download CV"
                   className="hover:bg-accent-dark dark:bg-accent-dark dark:hover:bg-accent-light mt-6 inline-flex items-center gap-2 rounded-lg bg-accent px-6 py-3 text-lg font-semibold text-white shadow-lg transition-transform hover:-translate-y-1 hover:scale-105"
                 >

@@ -2,14 +2,14 @@ import { type ExperienceShowcaseListItemProps } from "@/components/experience/ex
 
 export const EDUCATION: ExperienceShowcaseListItemProps[] = [
   {
-    title: "Bachelor Of Informatics Engineering",
+    title: "Bachelor of Information Technology Engineering",
     organisation: {
-      name: "Arab University Of Science And Technology",
-      href: "https://aust.edu.sy/",
+      name: "Homs University",
+      href: "#",
     },
-    date: "2019-2024",
-    location: "Hama, Syria",
+    date: "2020 - 2025",
+    location: "Homs, Syria",
     description:
-      "",
-  }
+      "Specialization: Software Engineering and Information Systems.",
+  },
 ];

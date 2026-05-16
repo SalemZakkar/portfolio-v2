@@ -9,14 +9,14 @@ export default function Home() {
   return (
     <>
          <NextSeo
-        title="About Salem Zakkar | Software Developer"
-        description="Learn more about Salem Zakkar, a dedicated Software Developer with 3 years of experience."
-        canonical={`${siteMetadata.siteUrl}/about`}
+        title="Inas Saab | Flutter Mobile App Developer"
+        description="Inas Saab is a Flutter Mobile App Developer with over 4 years of experience building Android and iOS applications."
+        canonical={siteMetadata.siteUrl}
         openGraph={{
-          url: `${siteMetadata.siteUrl}/about`,
-          title: "Learn About Salem Zakkar - Software Developer",
+          url: siteMetadata.siteUrl,
+          title: "Inas Saab - Flutter Mobile App Developer",
           description:
-            "Dive into the story of Salem Zakkar, a Software Developer. Uncover the experiences, skills, and passion.",
+            "Portfolio of Inas Saab, a Flutter Mobile App Developer building high-quality, user-friendly Android and iOS apps.",
           siteName: siteMetadata.siteName,
           type: "website",
         }}
@@ -27,7 +27,7 @@ export default function Home() {
           {
             property: "keywords",
             content:
-              "Software Developer portfolio, Software Developer, Flutter , Dart , NestJS , database , PSQL , postgresQL , mongoDB",
+              "Flutter developer portfolio, Mobile App Developer, Flutter, Dart, BLoC, Cubit, Firebase, Hive, Google Maps, Stripe",
           },
         ]}
       />

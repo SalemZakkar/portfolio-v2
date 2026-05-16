@@ -12,21 +12,19 @@ export default function AboutHero() {
         <AnimatePresence>
           <FadeUp key="title-greeting" duration={0.6}>
             <h1 className="text-6xl font-bold text-accent sm:text-7xl md:text-6xl lg:text-5xl xl:text-7xl">
-              Hi, I&apos;m Salem Zakkar
+              Hi, I&apos;m Inas Saab
             </h1>
           </FadeUp>
           <FadeUp key="description-1" duration={0.6} delay={0.2}>
             <p className="mt-8 text-base leading-relaxed font-medium text-zinc-900 dark:text-zinc-300 sm:text-lg md:text-lg">
-              Motivated and detail-oriented Software Developer with hands-on
-              experience in developing cross-platform mobile applications and
-              backend systems. Proven ability to build efficient, responsive,
-              and user-friendly mobile solutions, including successful
-              e-commerce applications with 100K+ and 50K+ downloads. Skilled in
-              designing and implementing scalable, high-performance backend
-              services and APIs, delivering robust solutions that meet both user
-              and business needs. Strong full-stack development capabilities,
-              combining frontend and backend expertise to create end-to-end
-              application solutions.
+              Mobile App Developer with over 4 years of experience in IT and a
+              background in Computer and Automation Engineering. Passionate
+              about building high-quality, user-friendly Android and iOS
+              applications using Flutter. Experienced in state management with
+              BLoC / Cubit, API integration, local storage with Hive, secure
+              authentication, payments, deep linking, and Google Play
+              deployment. Known for strong problem-solving skills and a
+              dedication to clean, efficient code and sound architecture.
             </p>
           </FadeUp>
           <FadeRight
@@ -45,7 +43,7 @@ export default function AboutHero() {
               />
             </div>
             <span className="text-lg font-medium text-foreground">
-              Hama, Syria
+              Homs, Syria
             </span>
           </FadeRight>
         </AnimatePresence>
