@@ -42,10 +42,11 @@ Worked closely with backend and mobile teams, utilizing technologies such as Flu
     date: "DEC 2022 - MAY 2023",
     location: "Baghdad, IRAQ - Remote",
     description: `
-Worked with Flutter, NestJS, PostgreSQL, and REST APIs in full-stack development, contributing to production-style applications\n
-Built and supported Todo and delivery applications, focusing on core features, backend integration, and bug fixes\n
-Improved application state management for better scalability and maintainability\n
-Used Docker and basic CI/ CD pipelines to streamline development, builds, and deployment workflows
+•
+Developed full-stack mobile applications, engineering responsive frontends with Flutter and building robust backend services using NestJS and PostgreSQL.\n
+Refactored application state management in Flutter, significantly improving data flow predictability, reducing code redundancy, and enhancing app performance.\n
+Diagnosed and resolved critical bugs across the mobile frontend and NestJS backend, increasing overall application stability and improving the user experience.\n
+Built and integrated secure REST APIs, ensuring seamless end-to-end communication and data synchronization between the mobile client and server.
       `,
   }
 ];
