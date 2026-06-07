@@ -13,5 +13,5 @@ export const siteMetadata = {
   github: "https://github.com/salemzakkar",
   linkedin: "https://www.linkedin.com/in/salemzakkar",
   locale: "en-US",
-  phone : "+963949123587"
+  phone : "+963934019206"
 };
