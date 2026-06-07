@@ -17,16 +17,7 @@ export default function AboutHero() {
           </FadeUp>
           <FadeUp key="description-1" duration={0.6} delay={0.2}>
             <p className="mt-8 text-base leading-relaxed font-medium text-zinc-900 dark:text-zinc-300 sm:text-lg md:text-lg">
-              Motivated and detail-oriented Software Developer with hands-on
-              experience in developing cross-platform mobile applications and
-              backend systems. Proven ability to build efficient, responsive,
-              and user-friendly mobile solutions, including successful
-              e-commerce applications with 100K+ and 50K+ downloads. Skilled in
-              designing and implementing scalable, high-performance backend
-              services and APIs, delivering robust solutions that meet both user
-              and business needs. Strong full-stack development capabilities,
-              combining frontend and backend expertise to create end-to-end
-              application solutions.
+              Software Developer specializing in mobile and backend development, building production-ready applications with Flutter for cross-platform mobile experiences and Kotlin for Android system-level features. Experienced in backend development using NestJS, PostgreSQL, and MongoDB to build scalable backend applications, including REST APIs and real-time services.
             </p>
           </FadeUp>
           <FadeRight

@@ -2,12 +2,12 @@ import { type ExperienceShowcaseListItemProps } from "@/components/experience/ex
 
 export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
   {
-    title: "Software Developer",
+    title: "Mobile App Developer",
     organisation: {
       name: "Unifi Solutions",
       href: "https://unifisolutions.io/",
     },
-    date: "AUG 2024 - JAN 2026",
+    date: "AUG 2024 - Present",
     location: "Montreal, Canada - Remote",
     description: `
 Developed cross-platform mobile apps for IoT, medical, and maintenance using flutter , Jira , Bitbucket.\n
@@ -24,14 +24,28 @@ Implemented Stripe payment integration for seamless and secure transactions.
       name: "Faya Dev",
       href: "https://faya.dev/",
     },
-    date: "MAY 2023 - MAY 2024",
+    date: "JUN 2023 - JUN 2024",
     location: "Baghdad, IRAQ - Remote",
     description: `
-developed two e-commerce apps with 100K+ and 50K+ downloads respectively using Flutter.\n
-Led development of a ride-booking app with live GPS tracking, real-time route updates, and driver status management.\n
-Led development of task-based rewards app with activity tracking, session backups, and automatic screenshot capture for task verification.\n
-Used Java for performance-critical features like background location tracking, online/offline status, and service management.\n
-Integrated Firebase (Auth, Firestore, Messaging, Realtime Database, Cloud Functions) for real-time communication, authentication, push notifications, and backend syncing.
+Led development of a riding app with Android location tracking using Kotlin, integrating real-time chat and trip tracking with NestJS, PostgreSQL, and Firebase.\n
+Contributed to e-commerce and erp applications features, focusing on performance and user experience in ordering and browsing flows\n
+Created a comprehensive cross-platform time tracking system with Flutter and Java, featuring HID listener-based activity tracking, screen capture, productivity monitoring, task management, work logging, and real-time data synchronization.\n
+Worked closely with backend and mobile teams, utilizing technologies such as Flutter, Dart, Kotlin, Java, NestJS, PostgreSQL, and Firebase.
+      `,
+  },
+    {
+    title: "Software Developer Intern",
+    organisation: {
+      name: "Faya Dev",
+      href: "https://faya.dev/",
+    },
+    date: "DEC 2022 - MAY 2023",
+    location: "Baghdad, IRAQ - Remote",
+    description: `
+Worked with Flutter, NestJS, PostgreSQL, and REST APIs in full-stack development, contributing to production-style applications\n
+Built and supported Todo and delivery applications, focusing on core features, backend integration, and bug fixes\n
+Improved application state management for better scalability and maintainability\n
+Used Docker and basic CI/ CD pipelines to streamline development, builds, and deployment workflows
       `,
   }
 ];
