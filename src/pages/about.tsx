@@ -10,14 +10,14 @@ export default function About() {
   return (
     <>
       <NextSeo
-        title="About Salem Zakkar | Software Developer"
-        description="Learn more about Salem Zakkar, a dedicated Software Developer with 3 years of experience."
+        title="About Salem Zakkar | Software Engineer"
+        description="Learn more about Salem Zakkar, a dedicated Software Engineer with 3 years of experience."
         canonical={`${siteMetadata.siteUrl}/about`}
         openGraph={{
           url: `${siteMetadata.siteUrl}/about`,
-          title: "Learn About Salem Zakkar - Software Developer",
+          title: "Learn About Salem Zakkar - Software Engineer",
           description:
-            "Dive into the story of Salem Zakkar, a Software Developer. Uncover the experiences, skills, and passion.",
+            "Dive into the story of Salem Zakkar, a Software Engineer. Uncover the experiences, skills, and passion.",
           siteName: siteMetadata.siteName,
           type: "website",
         }}
@@ -28,7 +28,7 @@ export default function About() {
           {
             property: "keywords",
             content:
-              "Software Developer portfolio, Software Developer, Flutter , Dart , NestJS , database , PSQL , postgresQL , mongoDB",
+              "Software Engineer portfolio, Software Engineer, Flutter , Dart , NestJS , database , PSQL , postgresQL , mongoDB",
           },
         ]}
       />

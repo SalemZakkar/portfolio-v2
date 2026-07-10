@@ -17,7 +17,7 @@ export default function AboutHero() {
           </FadeUp>
           <FadeUp key="description-1" duration={0.6} delay={0.2}>
             <p className="mt-8 text-base leading-relaxed font-medium text-zinc-900 dark:text-zinc-300 sm:text-lg md:text-lg">
-              Software Developer specializing in mobile and backend development, building production-ready applications with Flutter for cross-platform mobile experiences and Kotlin for Android system-level features. Experienced in backend development using NestJS, PostgreSQL, and MongoDB to build scalable backend applications, including REST APIs and real-time services.
+              Software Engineer specializing in mobile and backend development, with experience building production-ready applications and scalable software solutions. Skilled in designing and developing reliable systems across mobile platforms and backend services, with a strong focus on clean architecture, performance, and user experience. Passionate about learning new technologies, staying up to date with industry trends, and continuously improving development practices to deliver high-quality products.
             </p>
           </FadeUp>
           <FadeRight
