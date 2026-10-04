@@ -20,6 +20,20 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     appStoreHref: "https://apps.apple.com/us/app/alef-iot/id6468443325?uo=2",
     tags: ["Flutter", "Firebase", "Socket.io"],
   },
+    {
+    name: "Eye App",
+    favicon: "/images/eye/4.jpeg",
+    imageUrl: [
+      "/images/eye/1.png",
+      "/images/eye/2.png",
+      "/images/eye/3.png",
+      "/images/eye/4.jpeg",
+    ],
+    description:
+      "Eye App processes real-time camera frames through a high-performance vision inference pipeline engineered with Flutter, C++, OpenGL ES, and TFLite. It leverages custom compute shaders and zero-copy memory optimization to convert raw YUV sensor input into normalized YOLO input tensors with minimal latency. The accompanying interactive guide offers a step-by-step breakdown and live calculators to trace every pixel, matrix transformation, and bounding box detection.",
+    sourceCodeHref: "https://github.com/SalemZakkar/Eye",
+    tags: ["Flutter", "C++" , "Yolo" , "OpenGL" , "Dart FFI" ],
+  },
   {
     name: "Shams",
     favicon: "/images/shams/1.webp",
