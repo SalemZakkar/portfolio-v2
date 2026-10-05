@@ -26,7 +26,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     imageUrl: [
       "/images/eye/1.png",
       "/images/eye/2.png",
-      "/images/eye/3.png",
+      "/images/eye/3.jpg",
       "/images/eye/4.jpeg",
     ],
     description:
